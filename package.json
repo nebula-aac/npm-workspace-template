@@ -10,6 +10,19 @@
     "packages/*"
   ],
   "scripts": {
+    "commit": "git-cz",
+    "commit:noverify": "git-cz --no-verify",
+    "commit:sign": "git-cz -S",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji": "^1.3.2-canary.2"
   }
 }
