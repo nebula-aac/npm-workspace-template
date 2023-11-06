@@ -1,0 +1,15 @@
+{
+  "name": "npm-workspace-template",
+  "version": "0.0.0",
+  "private": true,
+  "description": "NPM Workspace template",
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
